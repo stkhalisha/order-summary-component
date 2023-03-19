@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Order summary card</title>
+    <!-- CSS link -->
+    <link rel="stylesheet" href="styles/styles.css" />
+  </head>
+  <body
+    class="p-8 m-auto min-h-screen flex justify-center font-family text-[16px] text-center bg-primary-pale-blue bg-[url('/images/pattern-background-mobile.svg')] bg-top bg-no-repeat bg-contain lg:bg-[url('/images/pattern-background-desktop.svg')]"
+  >
+    <main class="m-auto max-w-sm flex flex-col justify-center">
+      <article>
+        <div>
+          <img
+            class="rounded-t-2xl hover:cursor-pointer hover:opacity-80 hover:duration-700"
+            src="images/illustration-hero.svg"
+            alt=""
+          />
+        </div>
+
+        <div
+          class="bg-white rounded-b-2xl p-6 sm:pt-10 sm:pb-7 sm:px-11 shadow-lg"
+        >
+          <h1 class="text-xl sm:text-2xl font-bold">Order Summary</h1>
+          <p
+            class="mt-3 mb-4 text-[15px] sm:text-[16px] text-neutral-desaturated-blue"
+          >
+            You can now listen to millions of songs, audiobooks, and podcasts on
+            any device anywhere you like!
+          </p>
+
+          <div
+            class="flex flex-row justify-between bg-neutral-very-pale-blue rounded-lg p-5 mt-2"
+          >
+            <div class="flex flex-row gap-3">
+              <img src="images/icon-music.svg" alt="" />
+              <div class="flex flex-col">
+                <p class="font-black text-[15px]">Annual Plan</p>
+                <span class="text-neutral-desaturated-blue">$59.99/year </span>
+              </div>
+            </div>
+            <a
+              class="underline self-center text-[14px] font-bold text-primary-bright-blue hover:no-underline hover:opacity-70 hover:ease-in-out hover:duration-500 hover:cursor-pointer"
+              href="#"
+              >Change</a
+            >
+          </div>
+
+          <button
+            class="mb-4 mt-7 bg-primary-bright-blue text-white w-full h-10 rounded-lg shadow-lg ease-out shadow-slate-400 hover:bg-opacity-70 hover:scale-105 hover:ease-in-out hover:duration-500 hover:cursor-pointer hover:transition-all"
+          >
+            Proceed to Payment
+          </button>
+          <button
+            class="mt-3 font-bold text-neutral-desaturated-blue hover:text-neutral-dark-blue hover:scale-105 hover:ease-in-out hover:duration-500 hover:cursor-pointer"
+          >
+            Cancel Order
+          </button>
+        </div>
+      </article>
+    </main>
+  </body>
+</html>
