@@ -55,8 +55,6 @@ To see how you can add Hover on TailwindCSS see below:
 
 If you want more help with add Hover on TailwindCSS, I'd recommend checking out [Handling Hover, Focus, and Other States Guide](https://tailwindcss.com/docs/hover-focus-and-other-states) to learn more.
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
-
 ### Useful resources
 
 - [Tailwindcss] (https://tailwindcss.com/) - This helped me so much with styling css faster.
